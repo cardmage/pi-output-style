@@ -1,0 +1,34 @@
+{
+	"name": "pi-output-style",
+	"version": "0.1.0",
+	"description": "Claude Code Output Styles parity extension for Pi coding agent (Default, Explanatory, Learning, and custom markdown styles)",
+	"type": "module",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"output-style",
+		"claude-code",
+		"system-prompt"
+	],
+	"pi": {
+		"extensions": [
+			"./src/index.ts"
+		]
+	},
+	"scripts": {
+		"test": "node --test test/*.test.ts"
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cardmage/pi-output-style.git"
+	},
+	"engines": {
+		"node": ">=22.19.0"
+	}
+}
