@@ -2,6 +2,8 @@
 
 > 이 레포의 코드는 AI로 생성했으며, 사람이 코드를 검토하지 않았습니다.
 
+![AI generated, not reviewed by a human](https://img.shields.io/badge/AI%20generated-not%20reviewed%20by%20a%20human-orange)
+
 Claude Code의 **Output Styles**(`Default`, `Explanatory`, `Learning` 및 커스텀 `.md` 스타일) 기능을 [Pi Coding Agent](https://github.com/earendil-works/pi)(`@earendil-works/pi-coding-agent`)에서 그대로 사용할 수 있게 해주는 확장(Extension) 패키지입니다.
 
 Pi의 구조화된 시스템 프롬프트 섹션(`systemPromptOptions.sections`), 세션 브랜치 히스토리, 하단 상태바(Status Bar)와 자연스럽게 통합되며, 기존에 작성해 둔 `.claude/output-styles/*.md` 및 `.claude/settings*.json` 설정도 수정 없이 그대로 호환됩니다.
